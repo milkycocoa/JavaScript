@@ -137,12 +137,3 @@ for (let i = 0; i < mixed.length; i++) {
       console.log('even');
   }
 }
-
-function hello(name) {
-  console.log("田中さん、こんにちは");
-  return `${name}さん、こんにちは`;
-  console.log("鈴木さん、こんにちは");
-}
-
-let name = '佐藤';
-console.log(hello(name));
