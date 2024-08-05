@@ -134,6 +134,6 @@ for (let i = 0; i < mixed.length; i++) {
   } else if (mixed[i] % 2 === 1) {
     console.log('odd');
   } else if (mixed[i] % 2 === 0) {
-      console.log('even');
+    console.log('even');
   }
 }
