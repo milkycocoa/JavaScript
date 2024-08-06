@@ -128,12 +128,12 @@ console.log(numbers);
 
 // Q5 for × if
 let mixed = [4, '2', 5, '8', '9', 0, 1];
-for (let i = 0; i < mixed.length; i++) {
-  if (typeof mixed[i] === "string") {
+for (let ii = 0; ii < mixed.length; ii++) {
+  if (typeof mixed[ii] === "string") {
     console.log('not number');
-  } else if (mixed[i] % 2 === 1) {
+  } else if (mixed[ii] % 2 === 1) {
     console.log('odd');
-  } else if (mixed[i] % 2 === 0) {
+  } else if (mixed[ii] % 2 === 0) {
     console.log('even');
   }
 }
